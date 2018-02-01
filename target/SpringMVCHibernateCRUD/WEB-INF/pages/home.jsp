@@ -18,6 +18,7 @@
 			<th>Email</th>
 			<th>Address</th>
 			<th>Telephone</th>
+			<th>Adhaar Number</th>
 			<th>Action</th>
 
 			<c:forEach var="employee" items="${listEmployee}">
@@ -27,6 +28,7 @@
 					<td>${employee.email}</td>
 					<td>${employee.address}</td>
 					<td>${employee.telephone}</td>
+					<td>${employee.adhaarNumber}</td>
 					<td><a href="editEmployee?id=${employee.id}">Edit</a>
 						&nbsp;&nbsp;&nbsp;&nbsp; <a
 						href="deleteEmployee?id=${employee.id}">Delete</a></td>

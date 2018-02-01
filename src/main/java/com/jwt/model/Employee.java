@@ -31,6 +31,10 @@ public class Employee implements Serializable {
 	@Column
 	private String telephone;
 
+	@Column
+	private String adhaarNumber;
+	
+	
 	public int getId() {
 		return id;
 	}
@@ -70,5 +74,14 @@ public class Employee implements Serializable {
 	public void setTelephone(String telephone) {
 		this.telephone = telephone;
 	}
+	
+	public String getAdhaarNumber() {
+		return adhaarNumber;
+	}
+
+	public void setAdhaarNumber(String adhaarNumber) {
+		this.adhaarNumber = adhaarNumber;
+	}
+	
 
 }

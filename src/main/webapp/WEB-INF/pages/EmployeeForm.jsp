@@ -31,6 +31,10 @@
                 <td><form:input path="telephone" /></td>
             </tr>
             <tr>
+                <td>Adhaar Number:</td>
+                <td><form:input path="adhaarNumber" /></td>
+            </tr>
+            <tr>
                 <td colspan="2" align="center"><input type="submit" value="Save"></td>
             </tr>
         </table>
