@@ -19,6 +19,7 @@
 			<th>Address</th>
 			<th>Telephone</th>
 			<th>Adhaar Number</th>
+			<th>Adhaar Number</th>
 			<th>Action</th>
 
 			<c:forEach var="employee" items="${listEmployee}">
