@@ -18,7 +18,7 @@
 			<th>Email</th>
 			<th>Address</th>
 			<th>Telephone</th>
-			<th>Adhaar Number</th>
+			
 			<th>Adhaar Number</th>
 			<th>Action</th>
 
