@@ -19,7 +19,7 @@
 			<th>Address</th>
 			<th>Telephone</th>
 			<th>Voter Id</th>
-			
+			<th>Voter Id</th>
 			<th>Pan Number</th>
 			<th>Adhaar Number</th>
 			<th>Action</th>
